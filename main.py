@@ -23,8 +23,8 @@ if disc<0:
 	print("No existe solucion en los numeros reales")
 elif disc>0:
 	print("Las raices son: ")
-	print (raices(a,b,disc))
+	print raices(a,b,disc)
 else:
 	disc==0
 	print("Son iguales")
-	print (disc_igual)
+	print disc_igual
