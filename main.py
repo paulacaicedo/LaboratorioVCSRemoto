@@ -1,10 +1,11 @@
 print("Programa de Laboratorio")
 
-numero_a=int(input("Inserte el valor de a,por favor: "))
-numero_c=int(input("Inserte el valor de b,por favor: "))
+import math
+numero_b=int(input("Inserte el valor de b,por favor: "))
+numero_d=int(input("Inserte el valor de d,por favor: "))
 
-doble_a=numero_a**2
-producto=numero_a*numero_c
+cuadrado_b=numero_b**4
+raiz=math.sqrt(numero_d)
 
-print("El doble de a es: " + str(doble_a))
-print("El producto es: " + str(producto))
+print("El cuadrado de b es: " + str(cuadrado_b))
+print("La raiz es: " + str(raiz))
